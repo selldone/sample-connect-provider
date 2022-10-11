@@ -1,17 +1,18 @@
 <p align="center"><img src="./art/logo.png" alt="Selldone Client" height="64"></p>
 
-## Introduction
+# Connect Provider - Sample Laravel Project
 
-Selldone client is a package to provide access to **Selldone APIs** and **Selldone Connect Provider**. With this package
+This is a sample project to provide access to **Selldone Connect Provider**. With this package
 you will be able to create a connect bridge or work with all aspects of shops on Selldone.
 
 - [Selldone](https://selldone.com/)
+- [API Documentation](https://selldone.com/documents)
 
 ## Official Documentation
 
-* **Connect Provider:** Documentation for Connect Provider can be found on
+* **Connect Provider Panel:** Documentation for Connect Provider can be found on
   the [Selldone website](https://selldone.com/shuttle/providers).
-* **APIs:** Coming soon.
+* **APIs:** https://selldone.com/documents.
 
 ## Connect Provider
 
@@ -20,6 +21,24 @@ provider bridge on Selldone, With this option, your clients and other merchants 
 to your service just by one click and sync products. When a new order checkout, we create sub-orders  (fulfilment) and
 send them to related connect providers.
 
+## How to start
+
+1. Go to the providers panel and create a new provider.
+2. Open the created provider and complete information about your service on the setting tab.
+3. Go to the Dashboard and click on create connect bridge. To create the bridge you should 1- have a wallet with USD currency ( Create wallet) and 2- have 20USD charge. Users can select your service in the Channel > Connect OS tab, only if your provider has a bridge.
+4. Get Access Token in the APIs tab, and get Webhook Sign Key in the webhooks tab. You can use access token in Authorization header of API request, and use sign key to validate received webhooks from Selldone.
+5. Go to the Auth tab and setup users authentication flow.
+6. Implement all required webhooks (required).
+7. Using APIs are optional and depends on your service.
+
+
+## Supported Modes
+
+###  Migration
+Get products, categories, and customers. After the user deletes this service, the received products, categories, and customers will not be deleted.
+
+### Dropshipping
+Get products, categories, and orders. The system removes products after the user removes the service.
 
 
 
