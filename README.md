@@ -8,6 +8,8 @@ you will be able to create a connect bridge or work with all aspects of shops on
 - [Selldone](https://selldone.com/)
 - [API Documentation](https://selldone.com/documents)
 
+**⚠ IMPORTANT!** It's just a test project! Never use it as live/production!
+
 ## Official Documentation
 
 * **Connect Provider Panel:** Documentation for Connect Provider can be found on
@@ -22,7 +24,7 @@ to your service just by one click and sync products. When a new order checkout, 
 send them to related connect providers.
 
 ## Build Frontend
-This project has a sample test front end.
+This project has a sample frontend with **Vue**.
 ```shell
 npm watch
 ```
@@ -30,10 +32,13 @@ or
 ```shell
 yarn watch
 ```
+Output webapp:
+
+<img align="center" src="./art/webapp.png" >
 
 
 ## Run Backend
-You should deploy the project on a public server to be able to connect it to Selldone via Webhooks.
+You should deploy this **Laravel** project on a public server to be able to connect it to Selldone via Webhooks.
 
 ```shell
 php artisan serve --port=80
