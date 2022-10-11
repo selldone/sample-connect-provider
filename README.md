@@ -45,6 +45,7 @@ Get products, categories, and orders. The system removes products after the user
 ## Configuration on Selldone
 
 #### Create new provider for Connect OS
+Go **[here](https://selldone.com/shuttle/providers)** and create a new provider.
 <p align="center"><img src="./art/create-provider.png" alt="Create new provider for Connect OS" ></p>
 
 #### Created bridge
