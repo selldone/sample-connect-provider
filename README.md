@@ -21,6 +21,25 @@ provider bridge on Selldone, With this option, your clients and other merchants 
 to your service just by one click and sync products. When a new order checkout, we create sub-orders  (fulfilment) and
 send them to related connect providers.
 
+## Build Frontend
+This project has a sample test front end.
+```shell
+npm watch
+```
+or
+```shell
+yarn watch
+```
+
+
+## Run Backend
+You should deploy the project on a public server to be able to connect it to Selldone via Webhooks.
+
+```shell
+php artisan serve --port=80
+```
+
+
 ## How to start
 
 1. Go to the providers panel and create a new provider.
@@ -63,8 +82,14 @@ Go **[here](https://selldone.com/shuttle/providers)** and create a new provider.
 #### Config Auth
 <p align="center"><img src="./art/auth.png" alt="Auth" ></p>
 
+## Author & Designer
+<img align="center" src="./art/pajuhaan.jpg" width="24" height="24" style="border-radius: 50%;margin-right: 4px">
+ <b>Mehrdad Pajuhaan</b>
 
+- [Pajuhaan Linkedin](https://www.linkedin.com/in/pajuhaan)
 
 ## License
 
 Laravel Selldone Connect Provider is open-sourced software licensed under the [MIT license](LICENSE.md).
+
+
