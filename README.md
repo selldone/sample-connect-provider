@@ -42,6 +42,28 @@ Get products, categories, and orders. The system removes products after the user
 
 
 
+## Configuration on Selldone
+
+Create new provider for Connect OS:
+<p align="center"><img src="./art/create-provider.png" alt="Create new provider for Connect OS" ></p>
+
+Created bridge:
+<p align="center"><img src="./art/created-bridge.png" alt="Selldone Connect Bridge" ></p>
+
+
+Get API key:
+<p align="center"><img src="./art/api-key.png" alt="API key" ></p>
+
+
+Get Webhook sign key:
+<p align="center"><img src="./art/sign-key.png" alt="Sign key" ></p>
+
+
+Config Auth:
+<p align="center"><img src="./art/auth.png" alt="Auth" ></p>
+
+
+
 ## License
 
 Laravel Selldone Connect Provider is open-sourced software licensed under the [MIT license](LICENSE.md).
