@@ -7,6 +7,9 @@ you will be able to create a connect bridge or work with all aspects of shops on
 
 - [Selldone](https://selldone.com/)
 - [API Documentation](https://selldone.com/documents)
+- [Sample: Printful connection flow (Youtube)](https://youtu.be/CqgZG3Vkf64)
+- [How to add my service as a provider (Youtube)](https://youtu.be/cVZZRJZv5x8)
+
 
 **⚠ IMPORTANT!** It's just a test project! Never use it as live/production!
 
